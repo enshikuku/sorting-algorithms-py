@@ -2,6 +2,10 @@
 
 This repository contains various sorting algorithms implemented in Python. Additionally, it includes a random number generator implemented in HTML and Python.
 
+## Random Numbers Generator
+
+Preview the [Random Numbers Generator](https://enshikuku.github.io/sorting-algorithms-py/random-generator.html) implemented in HTML.
+
 ## Files and Directories
 
 - [`all-sorting.py`](all-sorting.py): A Python script that combines all sorting algorithms into a single file.
