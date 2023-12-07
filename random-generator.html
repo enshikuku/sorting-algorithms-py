@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Generator</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <h1>Random Number Generator</h1>
+
+    <form id="randomForm">
+        <label for="numOfNumbers">Number of Numbers:</label>
+        <input type="number" id="numOfNumbers" min="1" value="20" aria-label="Number of Numbers">
+        <input type="submit" value="Generate">
+    </form>
+
+    <button id="copyBtn">Copy to Clipboard</button>
+    <div id="time"></div>
+    <div id="result"></div>
+
+    <script src="static/main.js"></script>
+</body>
+</html>
