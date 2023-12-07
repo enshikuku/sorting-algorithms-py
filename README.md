@@ -4,26 +4,26 @@ This repository contains various sorting algorithms implemented in Python. Addit
 
 ## Files and Directories
 
-- `all-sorting.py`: A Python script that combines all sorting algorithms into a single file.
-- `random-generator.html`: An HTML file for a random number generator.
-- `random-numbers.py`: A Python script for generating random numbers.
+- [`all-sorting.py`](all-sorting.py): A Python script that combines all sorting algorithms into a single file.
+- [`random-generator.html`](random-generator.html): An HTML file for a random number generator.
+- [`random-numbers.py`](random-numbers.py): A Python script for generating random numbers.
 - `sortings/`: Directory containing individual sorting algorithm implementations.
-  - `bubble-sort.py`: Bubble Sort implementation.
-  - `bucket-sort.py`: Bucket Sort implementation.
-  - `heap-sort.py`: Heap Sort implementation.
-  - `insertion-sort.py`: Insertion Sort implementation.
-  - `merge-sort.py`: Merge Sort implementation.
-  - `quick-sort.py`: Quick Sort implementation.
-  - `radix-sort.py`: Radix Sort implementation.
-  - `selection-sort.py`: Selection Sort implementation.
-  - `shell-sort.py`: Shell Sort implementation.
-  
+  - [`bubble-sort.py`](sortings/bubble-sort.py): Bubble Sort implementation.
+  - [`bucket-sort.py`](sortings/bucket-sort.py): Bucket Sort implementation.
+  - [`heap-sort.py`](sortings/heap-sort.py): Heap Sort implementation.
+  - [`insertion-sort.py`](sortings/insertion-sort.py): Insertion Sort implementation.
+  - [`merge-sort.py`](sortings/merge-sort.py): Merge Sort implementation.
+  - [`quick-sort.py`](sortings/quick-sort.py): Quick Sort implementation.
+  - [`radix-sort.py`](sortings/radix-sort.py): Radix Sort implementation.
+  - [`selection-sort.py`](sortings/selection-sort.py): Selection Sort implementation.
+  - [`shell-sort.py`](sortings/shell-sort.py): Shell Sort implementation.
+
   Each sorting algorithm is accompanied by a brief explanation and instructions on how to run them independently.
 
 - `static/`: Directory containing static assets.
-  - `favicon.png`: Favicon for the repository.
-  - `main.js`: JavaScript file for dynamic content.
-  - `style.css`: Cascading Style Sheets for styling.
+  - [`favicon.png`](static/favicon.png): Favicon for the repository.
+  - [`main.js`](static/main.js): JavaScript file for dynamic content.
+  - [`style.css`](static/style.css): Cascading Style Sheets for styling.
 
 ## Sorting Algorithms
 
