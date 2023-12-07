@@ -1,9 +1,11 @@
+#  Bubble Sort
 def bubble_sort(arr):
     for i in range(len(arr)):
         for j in range(len(arr)-i-1):
             if arr[j] > arr[j+1]:
                 arr[j], arr[j+1] = arr[j+1], arr[j]
 
+# Insertion Sort
 def insertion_sort(arr):
     for i in range(1, len(arr)):
         key = arr[i]
@@ -13,6 +15,7 @@ def insertion_sort(arr):
             j -= 1
         arr[j + 1] = key
 
+# Merge Sort
 def merge_sort(arr):
     if len(arr) > 1:
         mid = len(arr) // 2
@@ -21,6 +24,7 @@ def merge_sort(arr):
         merge_sort(right)
         arr[:] = sorted(left + right)
 
+# Quick Sort
 def quick_sort(arr):
     if len(arr) <= 1:
         return arr
@@ -30,6 +34,7 @@ def quick_sort(arr):
         greater_than_pivot = [x for x in arr[1:] if x > pivot]
         return quick_sort(less_than_pivot) + [pivot] + quick_sort(greater_than_pivot)
 
+# Heap Sort
 def heapify(arr, n, i):
     largest = i
     left_child = 2 * i + 1
@@ -45,6 +50,7 @@ def heapify(arr, n, i):
         arr[i], arr[largest] = arr[largest], arr[i]
         heapify(arr, n, largest)
 
+# heap_sort
 def heap_sort(arr):
     n = len(arr)
 
@@ -55,6 +61,7 @@ def heap_sort(arr):
         arr[i], arr[0] = arr[0], arr[i]
         heapify(arr, i, 0)
 
+# counting_sort
 def counting_sort(arr, exp):
     n = len(arr)
     output = [0] * n
@@ -77,6 +84,7 @@ def counting_sort(arr, exp):
     for i in range(n):
         arr[i] = output[i]
 
+# Radix Sort
 def radix_sort(arr):
     max_num = max(arr)
 
@@ -85,6 +93,7 @@ def radix_sort(arr):
         counting_sort(arr, exp)
         exp *= 10
 
+# Bucket Sort
 def bucket_sort(arr):
     max_val = max(arr)
     min_val = min(arr)
@@ -104,6 +113,7 @@ def bucket_sort(arr):
 
     return sorted_array
 
+# Shell Sort
 def shell_sort(arr):
     n = len(arr)
     gap = n // 2
