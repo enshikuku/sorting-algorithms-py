@@ -28,7 +28,7 @@ def radix_sort(arr):
         counting_sort(arr, exp)
         exp *= 10
 
-# Get user input and perform radix sort
+# user input and perform radix sort
 user_array = list(map(int, input("Enter elements of the array separated by spaces: ").split()))
 radix_sort(user_array)
 
