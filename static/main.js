@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     copyBtn.addEventListener('click', function () {
-        copyToClipboard(randomNumbers.join(' '));
+        copyToClipboard(randomNumbers.join(', '));
     });
 
     function generateRandomNumbers() {
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function updateResult() {
-        resultDiv.textContent = randomNumbers.join(' ');
+        resultDiv.textContent = randomNumbers.join(', ');
     }
 
     function copyToClipboard(text) {
