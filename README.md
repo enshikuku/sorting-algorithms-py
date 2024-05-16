@@ -4,7 +4,7 @@ This repository contains various sorting algorithms implemented in Python. Addit
 
 ## Random Numbers Generator
 
-Preview the [Random Numbers Generator](https://enshikuku.github.io/sorting-algorithms-py/random-generator.html) implemented in HTML.
+Preview the [Random Numbers Generator](https://enshikuku.github.io/sorting-algorithms-py/index.html) implemented in HTML.
 
 ## Files and Directories
 
